@@ -1,0 +1,6 @@
+az webapp deployment github-actions add \
+  --repo "https://github.com/bathivinod/python-sample-vscode-flask-tutorial.git" \
+  --resource-group tailspin-space-game-rg \
+  --branch main \
+  --name tailspin-space-game-180520222312 \
+  --login-with-github
